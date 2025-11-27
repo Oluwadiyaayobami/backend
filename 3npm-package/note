@@ -1,0 +1,3 @@
+basicaly to cerate an node package manager we use npm init -y in the in the integrated terminal of the file you wantto work with 
+
+point 2 a dev dependency are the only thing u need to run ur code before deployment while the dependency are the things ur code need to run on production 
