@@ -1,3 +1,10 @@
 basicaly to cerate an node package manager we use npm init -y in the in the integrated terminal of the file you wantto work with 
 
 point 2 a dev dependency are the only thing u need to run ur code before deployment while the dependency are the things ur code need to run on production. so basically the pacake .json contain all the 3rd parties software installed in ur node project its the brain box of all the project 
+
+
+step 3 how to install and delete  3rd parties package 
+
+we use npm install the name of the package eg  we want to get loadlash we do // npm install loadlash 
+AND TO DELET THE PACKAGE NAME WE DO THE SAME THING AND WE USE NPM UNISTALL Tand use the package name 
+so it would be npm unistall loadash 
