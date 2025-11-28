@@ -10,3 +10,5 @@ then u write the code for the server to lestien
 server.lestien(port, ()=> {
     a callback to the function that alll 
 })
+
+so basically weuse the the req.url to set routhing function to our code and cerate end point 

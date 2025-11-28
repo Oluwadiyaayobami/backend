@@ -11,17 +11,26 @@
 //     console.log(`port running on port ${port}`)
 // })
 
-
-
-
-
 const { create } = require('domain')
 const { write } = require('fs')
 const http = require('http')
 
 const server = http.createServer((req,res) =>{
-    res.writeHead(200,{'content-type': 'text/plain'})
-    res.end('welcome back')
+    const url = req.url
+    if(url=== '/'){
+        res.writeHead(200,{'content-type': 'text/plain'})
+        res.end('welcome back')
+    }
+    else if(url === '/pojects'){
+         res.writeHead(200,{'content-type': 'text/plain'})
+        res.end('welcome back to ptoject')
+
+    }
+    else{
+        res.writeHead(404,{'content-type': 'text/plain'})
+        res.end('page not found ')
+    }
+
 
 })
 const port  = 3000;
