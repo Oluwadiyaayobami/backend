@@ -3,3 +3,11 @@ so basically  the node file system is combined with the path functionality to be
 })
 and also to cerate a file we use fs.writefile(it takes the file path where the file should be made and takes what u want to add to the file and also the erro )
 noe u have to cerate the file path for ur folder that u wantto addthe fiel to okay 
+
+to read a file we use the fs.readfilesync(pass the file path and utf8)
+that would read the file in the part cerated 
+
+we also have a funti=onality to append file useing the fs.appendfilesync(file path. what u wnt to add)
+
+
+and also there is an asncy way to do all this and its better forerror handling  
