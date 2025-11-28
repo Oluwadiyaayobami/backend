@@ -1,0 +1,12 @@
+the http module allow interaction it allow u to give a request and generate a response 
+basicaly u have to get the http module by useing the require('http')
+then u have to cerate server this is like server = http.cerateserver ((req,res) =>{
+    then u hvae to write ur response head this is basicaly res.writehead (it accept ur response statuse and also the trype of reswponse u want to generate)
+    the u have to end the response by res.end('pass in the vaue of ur response )
+})
+the u have to cerate ur server  this is done by assening a port 
+const port  = 3000 
+then u write the code for the server to lestien 
+server.lestien(port, ()=> {
+    a callback to the function that alll 
+})
