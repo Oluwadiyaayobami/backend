@@ -1,0 +1,11 @@
+a path module is used to allow users code to work every where that path module allow us to have direct control over the way our application interact withe the file system cause diffrent application has diffreent file fetchong system 
+type of path 
+
+1) we have path.join()
+this join mutiple segment of files together 
+2) path.resolve()
+this give a more structured part even tho its not making sense rom ur currwent file directory 
+3)path.dirname()
+     this to takes in a file name of the required file u want to get 
+4) path.basename()
+5) path.norminalize () this readjust the file and remove mistakes like mutiple \\ or // etc 
